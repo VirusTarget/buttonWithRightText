@@ -15,6 +15,7 @@
 		1317390F1DDF600F0078F4D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1317390D1DDF600F0078F4D3 /* LaunchScreen.storyboard */; };
 		1317391A1DDF600F0078F4D3 /* buttonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 131739191DDF600F0078F4D3 /* buttonTests.m */; };
 		131739251DDF600F0078F4D3 /* buttonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 131739241DDF600F0078F4D3 /* buttonUITests.m */; };
+		131739341DDF64580078F4D3 /* UIButton+seriesNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 131739331DDF64580078F4D3 /* UIButton+seriesNumber.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		131739201DDF600F0078F4D3 /* buttonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = buttonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		131739241DDF600F0078F4D3 /* buttonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = buttonUITests.m; sourceTree = "<group>"; };
 		131739261DDF600F0078F4D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		131739321DDF64580078F4D3 /* UIButton+seriesNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+seriesNumber.h"; sourceTree = "<group>"; };
+		131739331DDF64580078F4D3 /* UIButton+seriesNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+seriesNumber.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				131739031DDF600F0078F4D3 /* AppDelegate.m */,
 				131739051DDF600F0078F4D3 /* ViewController.h */,
 				131739061DDF600F0078F4D3 /* ViewController.m */,
+				131739321DDF64580078F4D3 /* UIButton+seriesNumber.h */,
+				131739331DDF64580078F4D3 /* UIButton+seriesNumber.m */,
 				131739081DDF600F0078F4D3 /* Main.storyboard */,
 				1317390B1DDF600F0078F4D3 /* Assets.xcassets */,
 				1317390D1DDF600F0078F4D3 /* LaunchScreen.storyboard */,
@@ -279,6 +284,7 @@
 				131739071DDF600F0078F4D3 /* ViewController.m in Sources */,
 				131739041DDF600F0078F4D3 /* AppDelegate.m in Sources */,
 				131739011DDF600F0078F4D3 /* main.m in Sources */,
+				131739341DDF64580078F4D3 /* UIButton+seriesNumber.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

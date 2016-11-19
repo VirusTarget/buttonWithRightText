@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "UIButton+seriesNumber.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIButton *button;
 
 @end
 
@@ -17,6 +19,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+//    self.button.layer.borderWidth   =   1;
+}
+- (IBAction)click {
+    self.button.selected    =   !self.button.selected;
+    if (self.button.selected) {
+        self.button.seriesNumber    =   @"2";
+    }
+    else {
+        self.button.seriesNumber    =   @"0";
+    }
 }
 
 
