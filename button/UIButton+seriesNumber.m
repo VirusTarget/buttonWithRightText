@@ -78,7 +78,7 @@ NSInteger const seriesFont  =   13; //序列的字体大小
     //按钮原先文本需要向左偏移，使文本+序列号固定在中间
     self.titleEdgeInsets    =   UIEdgeInsetsMake(0, 0, 0, (CGRectGetWidth(labelRect)+leftEdge)/2.0);
     
-    
+    [self layoutIfNeeded];
     //适配序列号
     labelRect.origin.x   =   CGRectGetMaxX(self.titleLabel.frame) + leftEdge;
     self.seriesLabel.layer.cornerRadius    =   CGRectGetHeight(labelRect)/2.0;
